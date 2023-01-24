@@ -1,0 +1,73 @@
+* {
+    font-family: Courier New, monospace;
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    background-color: #6A5B6E;
+    font: white;
+    font-size: 14px;
+    position: fixed;
+    top: 0;
+  }
+body {
+    background-color: cornsilk;
+}
+/* below code adjusted from https://www.w3schools.com/css/css_navbar_horizontal.asp */
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#6A5B6E;
+}
+li {
+    float: left;
+    color: white;
+    
+}
+
+li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+}
+li a:hover {
+    background-color: #372f3a;
+}
+
+body {
+    padding-top: 30px;
+}
+h1{
+    
+}
+
+h2 {
+    font-size: 16px;
+}
+
+#logo {
+    width: 300px;
+}
+
+/* https://www.w3schools.com/css/css3_borders.asp rounded corners*/
+#form {
+background-color: #ffae8b;
+margin: 10px auto;
+padding: 10px;
+border-radius: 25px;
+width: 400px;
+}
+
+footer {
+    background-color: #6A5B6E;
+    bottom: 0;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    list-style-type: none;
+}

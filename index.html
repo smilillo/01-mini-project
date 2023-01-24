@@ -4,31 +4,54 @@
   <head>
     <meta charset="UTF-8">
     <title>Crochet Club</title>
+    <link rel="stylesheet" href="./style.css">
   </head>
 
-  <section>
-  <body>
-    <h1>
-      Welcome to Crochet Club!
-    </h1>
-    <img src="./assets/Crochet Club.png" width="500px"/>
-    <p>
-        <h2>Love interesting and new crochet projects? Crochet Club is the club for you! Join our email list to follow along with new patterns weekly, supply suggestions, and updates from other crafters on their current projects!</h2>
-    </p>
-    <p>
-       
-    </p>
-  </section>
+    <section>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#patterns">Patterns</a></li>
+                    <li><a href=#form>Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+    </section>
 
   <section>
-    <form>
+    <body>
+        <h1>
+        Welcome to Crochet Club!
+        </h1>
+        <img src="./assets/Crochet Club.png" id="logo" alt="Crochet Club Logo"/>
+        <p>
+            <h2>Love new and interesting crochet projects? Crochet Club is the club for you! Join our email list to follow along with new patterns weekly, supply suggestions, and updates from other crafters on their current projects.</h2>
+        </p>
+  </section>
+<!-- code from https://www.w3schools.com/html/html_forms.asp -->
+  <section>
+    <form id="form">
         <label for="fname">First name:</label><br>
         <input type="text" id="fname" name="fname"><br>
         <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname">
+        <input type="text" id="lname" name="lname"><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"><br>
+        <input type="checkbox" id="newsletter" name="newsletter" value="newsletter">
+        <label for="newsletter"> I would like to receive monthly newsletters!</label><br>
+        <input type="checkbox" id="patterns" name="patterns" value="patterns">
+        <label for="patterns"> I would like to recieve new patterns each week!</label><br>
+        <input type="submit" value="Submit"> 
     </form>
   </section> 
 
   </body>
+  <footer>
+        <p>Author: Sofie Milillo</p>
+        <p>Contact Us: <a href="mailto:crochetclub@gmail.com">crochetclub@gmail.com</a></p>
+        <p>Copyright: 2023</p>
+  </footer>
 
 </html>
